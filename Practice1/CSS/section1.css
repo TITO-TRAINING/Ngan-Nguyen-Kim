@@ -1,0 +1,82 @@
+body,header,nav,main,footer{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../Images/section1_bg.jpg);
+    background-size: 100%;
+}
+.logo img{
+    max-width: 70%;
+    max-height: 70%;
+    align-items: center;
+    vertical-align: middle;
+}
+nav {
+    background-color:#3732325a;
+    display: flex;
+    padding: 10px 15px;
+    margin: 20px 85px 0px 85px;
+    justify-content: space-between;
+}
+nav ul {
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Open Sans Condensed';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    vertical-align: middle;
+}
+nav li {
+    display: inline-block;
+    font-size: 18px;
+}
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #000000;
+    background-color: #e5e9fc49;
+}
+.text{
+    padding: 200px 600px 950px 100px;
+}
+h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    margin: 0;
+}
+h2{
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+    margin: 0;
+}
+h5{
+    margin: 0;
+    font-size: 18px;
+    padding: 20px 0px 50px 0px;
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+}
+button{
+    padding: 20px 30px;
+    background-color: #e5e9fc00;
+    border-color: white;
+    color: white;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
