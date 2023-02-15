@@ -1,0 +1,27 @@
+{
+  "name": "ngan-nguyen-kim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/pages/index.html",
+    "build": "parcel ./src/pages/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TITO-TRAINING/Ngan-Nguyen-Kim.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TITO-TRAINING/Ngan-Nguyen-Kim/issues"
+  },
+  "homepage": "https://github.com/TITO-TRAINING/Ngan-Nguyen-Kim#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4"
+  }
+}
