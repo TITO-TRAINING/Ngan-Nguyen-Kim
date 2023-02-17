@@ -1,0 +1,19 @@
+<nav class="navbar">
+    <div class="container-fluid">
+      <a href="javascript:void(0)" class="navbar-brand">
+        <figure>
+          <img src="../assets/images/logo.jpg" alt="logo" />
+        </figure>
+      </a>
+  
+      <ul class="nav-list">
+        <include
+          src="./components/nav-list.html"
+          locals='{
+          "classList": "nav-list-item list-item ",
+          "classLink": "nav-link",
+          "list": "[`OUR MISSION`, `RIDESHARE`, `ENGINES`, `CAREERS`, `SHOP`]"}'>
+        </include>
+      </ul>
+    </div>
+  </nav>
