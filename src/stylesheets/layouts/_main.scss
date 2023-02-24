@@ -3,90 +3,64 @@
 main{
     margin: 0;
     padding: 0;
-    // background-image: url(/src/assets/images/section2.jpg);
-    // background-size: cover;
-    // background-position: center;
 }
 .section2{
     position: relative;
 }
 .section2_img img{
-    // z-index: 1;
     width: 100%;
     height: auto;
     background-size: cover;
     background-position: center;
 }
-// .section2{
-//     position: absolute;
-// }
 .main-title h1{
     margin: 0px;
-    // padding: 300px 0px 0px 100px;
     position: absolute;
-height: 87px;
-left: 100px;
-top: 300px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 87px;
-letter-spacing: 0.1em;
-
-color: #FFFFFF;
+    height: 87px;
+    left: 100px;
+    top: 300px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
 }
 .main-title h2{
     margin: 0px;
-    // padding: 0px 0px 0px 100px;
     position: absolute;
-height: 135px;
-left: 100px;
-top: 400px;
-
-font-family: 'Anton';
-font-style: normal;
-font-weight: 400;
-font-size: 92px;
-line-height: 138px;
-letter-spacing: -0.01em;
-
-color: #FFFFFF;
+    height: 135px;
+    left: 100px;
+    top: 400px;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 138px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
 }
 .main-title h5{
     margin: 0px;
-    // padding: 20px 0px 0px 100px;
     position: absolute;
-// width: 288px;
-height: 25px;
-left: 100px;
-top: 550px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 25px;
-/* identical to box height */
-
-letter-spacing: 0.1em;
-text-decoration-line: underline;
-
-color: #FFFFFF;
+    height: 25px;
+    left: 100px;
+    top: 550px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
 }
-
-
 .section3{
     background-color: black;
     position: relative;
 }
-// .section3_img{
-//     width: 100px;
-//     height: auto;
-// }
 .section3_img img{
-    // z-index: 1;
     width: 86%;
     height: auto;
     background-size: cover;
@@ -95,30 +69,25 @@ color: #FFFFFF;
 }
 .section3_text{
     position: absolute;
-height: 645px;
-// left: 0%;
-// right: 0%;
-top: -15%;
-z-index: 5;
-font-family: 'Anton';
-font-style: normal;
-font-weight: 400;
-font-size: 440px;
-line-height: 662px;
-letter-spacing: -0.01em;
-
-color: #FFFFFF;
-
-mix-blend-mode: soft-light;
+    height: 645px;
+    top: -15%;
+    z-index: 5;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 440px;
+    line-height: 662px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    mix-blend-mode: soft-light;
 }
 .section3_para{
     position: absolute;
-width: 480px;
-height: 638px;
-left: 50%;
-top: 20%;
-
-background: rgba(25, 65, 106, 0.5);
+    width: 480px;
+    height: 638px;
+    left: 50%;
+    top: 20%;
+    background: rgba(25, 65, 106, 0.5);
 }
 .title{
     position: absolute;
