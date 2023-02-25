@@ -1,0 +1,28 @@
+nav{
+    background-color:  rgba(61, 61, 61, 0.352);
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    // background-color: #fff;
+    // background-color:  rgba(255, 255, 255, 0.01);
+    // color: #fff;
+}
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+nav li {
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+footer ul {
+    list-style-type: none;
+}
+footer li {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Geneva, Arial, sans-serif;
+}
