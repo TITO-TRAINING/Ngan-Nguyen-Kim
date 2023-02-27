@@ -9,7 +9,7 @@
     padding-bottom: 50px;
 }
 .card{
-    background: #FFFFFF;
+    background-color: $background-footer;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
     margin: auto;
     position: relative;
@@ -33,12 +33,11 @@
     font-weight: bold;
 }
 .card_text p{
-    margin: 0;
-    // padding: 15px 15px 0px 20px;
     letter-spacing: 0.1em;
     color: #000;
+    padding: 50px 50px 0px 50px;
 }
-.title{
+.cardtitle{
     font-weight: bold;
     font-size: 22px;
     font-family: 'Open Sans';
@@ -46,9 +45,6 @@
 .paragraph{
     font-size: 14px;
     font-family: 'Open Sans';
-}
-.button{
-    text-align: center;
 }
 button{
     margin: 60px;
