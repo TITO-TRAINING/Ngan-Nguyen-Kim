@@ -1,56 +1,37 @@
 @use "../abstracts" as * ;
 .section2{
-    position: relative;
-}
-.section2_img img{
-    width: 100%;
-    height: auto;
-    background-size: cover;
+    background-image: url(../../assets/images/section2.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.main-title h1{
-    margin: 0px;
-    position: absolute;
+.section2-title h1{
+    padding: 300px 0px 0px 200px;
     height: 87px;
-    left: 100px;
-    top: 300px;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 64px;
-    line-height: 87px;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    color: $text-color;
     text-transform: uppercase;
 }
-.main-title h2{
-    margin: 0px;
-    position: absolute;
+.section2-title h2{
+    padding: 30px 0px 0px 200px;
     height: 135px;
-    left: 100px;
-    top: 400px;
     font-family: 'Anton';
-    font-style: normal;
     font-weight: 400;
     font-size: 92px;
-    line-height: 138px;
     letter-spacing: -0.01em;
-    color: #FFFFFF;
+    color: $text-color;
     text-transform: uppercase;
 }
-.main-title h5{
-    margin: 0px;
-    position: absolute;
-    height: 25px;
-    left: 100px;
-    top: 550px;
+.section2-title h5{
+    padding: 10px 0px 350px 200px;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 25px;
     letter-spacing: 0.1em;
     text-decoration-line: underline;
-    color: #FFFFFF;
+    color: $text-color;
     text-transform: uppercase;
 }

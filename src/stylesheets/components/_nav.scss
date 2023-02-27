@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 80px;
+    background-color: $background-nav;
 }
 nav ul {
     text-align: center;
@@ -14,13 +15,13 @@ nav li {
 }
 nav li a {
     display: block;
-    color: #f6eee4;
+    color: $text-color;
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
     text-transform: uppercase;
 }
 nav li a:hover{
-    color: #373684;
+    color: $text-card-footer;
     background-color: #e5e9fc;
 }
