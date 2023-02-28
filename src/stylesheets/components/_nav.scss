@@ -1,0 +1,30 @@
+@use "../abstracts/" as *;
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: $background-nav;
+}
+nav ul {
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+}
+nav li {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: $fourth-font;
+}
+nav li a {
+    display: block;
+    color: $text-color;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav li a:hover{
+    color: $text-card-footer;
+    background-color: #e5e9fc;
+}

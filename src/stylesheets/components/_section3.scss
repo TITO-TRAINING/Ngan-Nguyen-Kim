@@ -1,0 +1,64 @@
+@use "../abstracts" as * ;
+.section3{
+    background-color: $background-color;
+    position: relative;
+}
+.section3_img img{
+    width: 86%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+.section3_text{
+    position: absolute;
+    height: 645px;
+    top: 30%;
+    font-family: $second-font;
+    font-weight: 400;
+    font-size: 440px;
+    letter-spacing: -0.01em;
+    color: $text-color;
+    mix-blend-mode: soft-light;
+}
+.section3_paragraph{
+    position: absolute;
+    width: 480px;
+    height: 638px;
+    left: 50%;
+    top: 20%;
+    background-color: $background-text;
+    padding: 50px 0px 0px 50px;
+}
+.title{
+    height: 94px;
+    margin: 0;
+    font-family: $second-font;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: -0.01em;
+    color: $text-color;
+    text-transform: uppercase;
+}
+.paragraph{
+    width: 387px;
+    height: 294px;
+    font-family: $primary-font;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: $text-color;
+}
+.button{
+    box-sizing: border-box;
+    width: 290px;
+    height: 77px;
+    border: $border;
+    font-family: $primary-font;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: $text-color;
+    text-transform: uppercase;
+}

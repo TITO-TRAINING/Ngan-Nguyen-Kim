@@ -1,0 +1,38 @@
+@use "../abstracts/" as *;
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+}
+footer {
+  padding: 50px 0px;
+  background-color: $background-footer;
+}
+footer ul {
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  display: inline-flex;
+}
+.text{
+  padding: 10px 20px;
+  margin: 0;
+}
+footer li {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+  font-family: $fourth-font;
+}
+footer li a {
+  display: block;
+  color: $text-card-footer;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer li a:hover{
+  color: $text-color;
+  background-color: $background-color;
+}
