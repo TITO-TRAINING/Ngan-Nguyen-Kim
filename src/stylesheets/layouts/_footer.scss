@@ -20,6 +20,9 @@ footer ul {
 }
 footer li {
   font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+  font-family: $fourth-font;
 }
 footer li a {
   display: block;
