@@ -4,11 +4,11 @@
 /node_modules
 /.cache
 /.parcel-cache
+/pnpm-lock.yaml
 
 # production
 /dist
 
 # misc
 yarn.lock
-pnpm-lock.yaml
 .DS_Store
