@@ -9,8 +9,6 @@
 .card{
     background-color: $background-footer;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
-}
-.card_img{
     position: relative;
 }
 .card_img img{
@@ -22,7 +20,8 @@
     position: absolute; 
     padding: 8px 15px 8px 15px;
     color: blue;
-    background-color: #FFFFFF;
+    background-color: $background-footer;
+    top: 242px;
 }
 .date{
     margin: 0;
