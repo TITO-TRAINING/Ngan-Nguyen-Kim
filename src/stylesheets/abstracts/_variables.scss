@@ -17,3 +17,10 @@ $primary-font: OpenSans;
 $second-font: Anton;
 $third-font: OpenSans_Condensed;
 $fourth-font: Geneva;
+
+// breakpoints
+$medium: 768px;
+$extra-lager: 1200px;
+
+$mobile: calc($medium - 1px);
+$tablet: calc($extra-lager - 1px);
