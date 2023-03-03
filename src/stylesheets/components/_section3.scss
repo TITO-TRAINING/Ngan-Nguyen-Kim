@@ -48,6 +48,7 @@
     font-size: 14px;
     letter-spacing: 0.1em;
     color: $text-color;
+    line-height: 1.7;
 }
 .button{
     box-sizing: border-box;
@@ -61,4 +62,5 @@
     letter-spacing: 0.1em;
     color: $text-color;
     text-transform: uppercase;
+    background-color: $background-button;
 }

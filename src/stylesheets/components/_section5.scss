@@ -1,0 +1,33 @@
+@use "../abstracts" as * ;
+.faq-container img{
+    width: 100%;
+}
+.faq-container{
+    background-color: $background-color;
+}
+.faq-content{
+    padding: 0px 150px 130px 150px;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+}
+.faq-title{
+    font-family: $second-font;
+    font-size: 64px;
+    line-height: 1.5;
+    color: $text-color;
+}
+.titles{
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.1em;
+    color: $text-color;
+    text-transform: uppercase;
+}
+.paragraphs{
+    color: $text-color;
+}
