@@ -34,4 +34,7 @@
     text-decoration-line: underline;
     color: $text-color;
     text-transform: uppercase;
+    @include tablet{
+        padding: 90px 0px 350px 200px;
+    }
 }
