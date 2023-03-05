@@ -20,6 +20,9 @@ footer ul {
   @include tablet{
     padding: 30px 0px 0px 0px;
   }
+  @include mobile{
+    display: block;
+  }
 }
 .text{
   padding: 10px 20px;

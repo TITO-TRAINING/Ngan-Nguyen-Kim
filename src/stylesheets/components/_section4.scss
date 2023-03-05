@@ -1,9 +1,9 @@
 @use "../abstracts" as * ;
 .section4{
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 30px;
-    padding: 50px 50px;
+    grid-template-columns: 387px 387px 387px;
+    gap: 55px;
+    padding: 120px;
     background-color: #f1f1f1;
     @include tablet{
         grid-template-columns: 350px 350px;
@@ -44,12 +44,12 @@
     font-size: 22px;
     font-family: $third-font;
 }
-.paragraph{
+.cardparagraph{
     font-size: 14px;
     font-family: $primary-font;
 }
 button{
-    margin: 60px;
+    margin: 40px 0px 0px 43px;
     box-sizing: border-box;
     width: 304px;
     height: 77px;
