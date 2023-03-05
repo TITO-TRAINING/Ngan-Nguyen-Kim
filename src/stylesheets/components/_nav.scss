@@ -5,6 +5,10 @@
     padding: 10px 80px;
     background-color: $background-nav;
 }
+.navbar-logo{
+    height: 34px;
+    padding-top: 10px;
+}
 nav ul {
     text-align: center;
     text-decoration: none;
@@ -24,10 +28,24 @@ nav li a {
     text-decoration: none;
     text-transform: uppercase;
     @include tablet{
-        
+        display: none;
+    }
+    @include mobile{
+        display: none;
     }
 }
 nav li a:hover{
     color: $text-card-footer;
     background-color: #e5e9fc;
+}
+.icon-navbar a img{
+    width: 20%;
+    float: right;
+    display: none;
+    @include tablet{
+        display: block;
+    }
+    @include mobile{
+        display: block;
+    }
 }

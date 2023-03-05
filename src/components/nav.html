@@ -3,14 +3,19 @@
       <div class="navbar-logo">
           <img src="../assets/images/logo.jpg" alt="logo" />
       </div>
-      <ul class="nav-list">
-        <include
-          src="./components/nav-list.html"
-          locals='{
-          "classList": "nav-list-item list-item ",
-          "classLink": "nav-link",
-          "list": "[`our mission`, `rideshare`, `engines`, `careers`, `shop`]"}'>
-        </include>
-      </ul>
+      <div class="nav-list">
+        <ul>
+          <include
+            src="./components/nav-list.html"
+            locals='{
+            "classList": "nav-list-item list-item ",
+            "classLink": "nav-link",
+            "list": "[`our mission`, `rideshare`, `engines`, `careers`, `shop`]"}'>
+          </include>
+        </ul>
+      </div>
+      <div class="icon-navbar">
+        <a href="#"><img src="../assets/icons/icon-bar.png" alt="icon-navbar"></a>
+      </div> 
     </div>
 </nav>
