@@ -46,6 +46,10 @@
         width: 391px;
         height: 451px;
     }
+    @include mobile{
+        position: static;
+        width: 100%;
+    }
 }
 .title{
     height: 94px;

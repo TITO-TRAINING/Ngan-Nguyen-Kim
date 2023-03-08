@@ -9,6 +9,10 @@
         grid-template-columns: 350px 350px;
         padding: 50px 10px;
     }
+    @include mobile{
+        display: flex;
+        flex-direction: column;
+    }
 }
 .card{
     background-color: $background-footer;
