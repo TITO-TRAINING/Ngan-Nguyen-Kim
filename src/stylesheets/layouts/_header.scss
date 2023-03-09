@@ -24,6 +24,10 @@
     letter-spacing: -0.01em;
     color: $text-color;
     text-transform: uppercase;
+    @include mobile{
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
 }
 .header-title h5{
     padding: 10px 0px 50px 100px;

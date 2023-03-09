@@ -28,6 +28,9 @@
     @include tablet{
         top: 5%;
     }
+    @include mobile{
+        display: none;
+    }
 }
 .section3_paragraph{
     position: absolute;
@@ -42,6 +45,10 @@
         left: 41%;
         width: 391px;
         height: 451px;
+    }
+    @include mobile{
+        position: static;
+        width: 100%;
     }
 }
 .title{
@@ -66,7 +73,6 @@
     @include tablet{
         height: 230px;
         padding-top: 40px;
-        width: auto;
     }
 }
 .button{
