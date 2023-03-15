@@ -1,18 +1,10 @@
 @use "../abstracts" as * ;
 .section4{
     display: grid;
-    grid-template-columns: 387px 387px 387px;
-    gap: 55px;
-    padding: 120px;
+    grid-template-columns: repeat(3, 31%);
+    gap: 5%;
+    padding: 10%;
     background-color: #f1f1f1;
-    @include tablet{
-        grid-template-columns: 350px 350px;
-        padding: 50px 10px;
-    }
-    @include mobile{
-        display: flex;
-        flex-direction: column;
-    }
 }
 .card{
     background-color: $background-footer;
@@ -52,18 +44,16 @@
     font-size: 14px;
     font-family: $primary-font;
 }
-button{
-    margin: 40px 0px 0px 43px;
+.btn-sec4{
+    margin: 5% 0% 0% 10%;
+    padding: 2%;
     box-sizing: border-box;
-    width: 304px;
-    height: 77px;
+    width: 80%;
+    height: 160%;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
     border: 4px solid #313131;
     grid-column: 2/3;
     align-items: center;
-    @include tablet{
-        margin: 0;
-    }
 }
