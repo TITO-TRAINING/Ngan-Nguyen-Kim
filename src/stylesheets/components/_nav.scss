@@ -1,21 +1,18 @@
 @use "../abstracts/" as *;
+nav{
+    padding: 20px 50px 0px 50px;
+    position: fixed;
+    z-index: 5;
+}
 .container-nav{
     display: flex;
     justify-content: space-between;
-    padding: 10px 80px;
     background-color: $background-nav;
-    height: 60px;
+    padding: 10px;
 }
 .navbar-logo{
-    height: 34px;
     padding-top: 10px;
-    @include mobile{
-        height: 20px;
-    }
-}
-.navbar-logo{
-    height: 34px;
-    padding-top: 10px;
+    padding-right: 65px;
 }
 nav ul {
     text-align: center;
@@ -35,25 +32,8 @@ nav li a {
     padding: 0.5em 1em;
     text-decoration: none;
     text-transform: uppercase;
-    @include tablet{
-        display: none;
-    }
-    @include mobile{
-        display: none;
-    }
 }
 nav li a:hover{
     color: $text-card-footer;
     background-color: #e5e9fc;
-}
-.icon-navbar a img{
-    width: 45%;
-    float: right;
-    display: none;
-    @include tablet{
-        display: block;
-    }
-    @include mobile{
-        display: block;
-    }
 }
