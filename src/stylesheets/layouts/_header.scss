@@ -3,11 +3,17 @@
     background-image: url(../../assets/images/section1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 1096px;
     width: 100%;
 }
-.header-title h1{
+.header-title{
     padding: 300px 0px 0px 100px;
+    @include tablet{
+        padding: 300px 0px 0px 30px;
+    }
+}
+.header-title h1{
     font-family: $primary-font;
     font-weight: 400;
     font-size: 64px;
@@ -16,7 +22,7 @@
     text-transform: uppercase;
 }
 .header-title h2{
-    padding: 30px 0px 0px 100px;
+    padding-top: 30px;
     font-family: $second-font;
     font-weight: 400;
     font-size: 92px;
@@ -25,7 +31,7 @@
     text-transform: uppercase;
 }
 .header-title h5{
-    padding: 10px 0px 50px 100px;
+    padding-top: 10px;
     font-family: $primary-font;
     font-weight: 700;
     font-size: 18px;
@@ -35,8 +41,8 @@
     text-transform: uppercase;
 }
 .header-button button{
-    margin: 10px 0px 0px 100px;
-    width: 20%;
+    margin: 30px 0px 0px 100px;
+    width: 300px;
     border: $border;
     font-family: $primary-font;
     font-weight: 700;
@@ -44,4 +50,9 @@
     letter-spacing: 0.1em;
     background-color: $background-button;
     color: $text-color;
+    text-transform: uppercase;
+    padding: 30px;
+    @include tablet{
+        margin: 30px 0px 0px 30px;
+    }
 }

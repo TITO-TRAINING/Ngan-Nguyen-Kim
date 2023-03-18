@@ -10,6 +10,10 @@
     background-size: cover;
     background-position: center;
     padding: 10%;
+    @include tablet{
+        width: 100%;
+        padding: 0;
+    }
 }
 .section3_text{
     position: absolute;
@@ -22,6 +26,10 @@
     mix-blend-mode: soft-light;
     padding: 10% 0% 10% 10%;
     text-transform: uppercase;
+    @include tablet{
+        font-size: 225px;
+        padding: 0;
+    }
 }
 .section3_paragraph{
     position: absolute;
@@ -30,6 +38,12 @@
     right: 20%;
     background-color: $background-text;
     padding: 50px;
+    backdrop-filter: blur(22px);
+    @include tablet{
+        right: 0;
+        bottom: 10%;
+        top: 10%;
+    }
 }
 .title{
     margin: 0;
@@ -39,6 +53,9 @@
     letter-spacing: -0.01em;
     color: $text-color;
     text-transform: uppercase;
+    @include tablet{
+        font-size: 40px;
+    }
 }
 .paragraph{
     font-family: $primary-font;
@@ -47,7 +64,10 @@
     letter-spacing: 0.1em;
     color: $text-color;
     line-height: 1.7;
-    padding: 3% 0% 5% 0%;
+    margin: 3% 0% 5% 0%;
+    @include tablet{
+        font-size: 10px;
+    }
 }
 .btn-sec3{
     box-sizing: border-box;
@@ -61,4 +81,8 @@
     text-transform: uppercase;
     background-color: $background-button;
     padding: 7% 15%;
+    @include tablet{
+        font-size: 14px;
+        padding: 4% 10%;
+    }
 }
