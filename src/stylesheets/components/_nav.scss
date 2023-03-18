@@ -1,7 +1,6 @@
 @use "../abstracts/" as *;
 nav{
     padding: 20px 50px 0px 50px;
-    position: fixed;
     z-index: 5;
 }
 .container-nav{
@@ -14,10 +13,20 @@ nav{
     padding-top: 10px;
     padding-right: 65px;
 }
+.icon-navbar img{
+    display: none;
+    @include tablet{
+        display: block;
+        width: 55px;
+    }
+}
 nav ul {
     text-align: center;
     text-decoration: none;
     margin: 0;
+    @include tablet{
+        display: none;
+    }
 }
 nav li {
     font-weight: bold;
@@ -35,5 +44,4 @@ nav li a {
 }
 nav li a:hover{
     color: $text-card-footer;
-    background-color: #e5e9fc;
 }
