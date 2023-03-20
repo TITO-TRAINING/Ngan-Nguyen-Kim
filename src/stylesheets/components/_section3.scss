@@ -30,6 +30,9 @@
         font-size: 225px;
         padding: 0;
     }
+    @include mobile{
+        display: none;
+    }
 }
 .section3_paragraph{
     position: absolute;
@@ -37,12 +40,15 @@
     top: 20%;
     right: 20%;
     background-color: $background-text;
-    padding: 50px;
+    padding: 5%;
     backdrop-filter: blur(22px);
     @include tablet{
         right: 0;
         bottom: 10%;
         top: 10%;
+    }
+    @include mobile{
+        position: static;
     }
 }
 .title{

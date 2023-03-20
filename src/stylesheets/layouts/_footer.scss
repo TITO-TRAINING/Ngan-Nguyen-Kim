@@ -12,34 +12,47 @@ footer {
   padding: 50px;
   background-color: $background-footer;
 }
-footer ul {
+.footer-logo img{
+  @include mobile{
+    width: 100%;
+  }
+}
+.footer-list {
   text-align: center;
-  justify-content: space-between;
+  flex-direction: row;
+  gap: 50px;
+  height: fit-content;
+  padding: 10px 20px 0px 20px;
   text-decoration: none;
   margin: 0;
   display: flex;
   @include tablet{
     padding: 30px 0px 0px 0px;
   }
+  @include mobile{
+    flex-direction: column;
+    width: fit-content;
+    font-size: 20px;
+    gap: 20px;
+    align-items: baseline;
+  }
 }
 .text{
-  padding: 20px 0px;
+  padding: 10px 0px;
   margin: 0;
+  @include mobile{
+    font-size: 20px;
+    padding-top: 20px;
+  }
 }
-footer li {
-  font-weight: bold;
-  display: inline-block;
-  font-size: 18px;
-  font-family: $fourth-font;
-}
-footer li a {
+.footer-list a {
   display: block;
   color: $text-card-footer;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 }
-footer li a:hover{
+.footer-list a:hover{
   color: $text-color;
   background-color: $background-color;
 }
