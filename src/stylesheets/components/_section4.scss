@@ -1,18 +1,24 @@
 @use "../abstracts" as * ;
 .section4{
     display: grid;
-    grid-template-columns: repeat(3, 31%);
+    grid-template-columns: repeat(3, 1fr);
     gap: 5%;
     padding: 10%;
     background-color: #f1f1f1;
     @include tablet{
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include mobile{
+        display: block;
     }
 }
 .card{
     background-color: $background-footer;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
     position: relative;
+    @include mobile{
+        margin-bottom: 30px;
+    }
 }
 .card_img img{
     width: 100%;
@@ -62,5 +68,10 @@
     @include tablet{
         height: 15%;
         margin: 50% 0% 0% 13% ;
+    }
+    @include mobile{
+        margin: 0;
+        width: 100%;
+        padding: 5%;
     }
 }

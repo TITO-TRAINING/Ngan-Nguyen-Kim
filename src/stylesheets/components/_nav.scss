@@ -9,9 +9,15 @@ nav{
     background-color: $background-nav;
     padding: 10px;
 }
-.navbar-logo{
+.navbar-logo img{
     padding-top: 10px;
     padding-right: 65px;
+    @include tablet{
+        width: 80%;
+    }
+    @include mobile{
+        width: 90%;
+    }
 }
 .icon-navbar img{
     display: none;
@@ -19,12 +25,19 @@ nav{
         display: block;
         width: 55px;
     }
+    @include mobile{
+        display: block;
+        width: 40px;
+    }
 }
 nav ul {
     text-align: center;
     text-decoration: none;
     margin: 0;
     @include tablet{
+        display: none;
+    }
+    @include mobile{
         display: none;
     }
 }
