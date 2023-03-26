@@ -1,18 +1,18 @@
 @use "../abstracts/" as *;
 
 @font-face {
-    font-family: OpenSans;
-    src: url(/src/assets/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+    font-family: Open-Sans;
+    src: url(../assets/fonts/OpenSans-Regular.ttf);
   }
 @font-face {
     font-family: Anton;
-    src: url(/src/assets/fonts/Anton-Regular.ttf);
+    src: url(../assets/fonts/Anton-Regular.ttf);
 }
 @font-face {
-    font-family: OpenSans_Condensed;
-    src: url(/src/assets/fonts/OpenSans_Condensed-Regular.ttf);
+    font-family: Open-Sans-Condensed;
+    src: url(../assets/fonts/OpenSans_Condensed-Regular.ttf);
 }
 @font-face {
     font-family: Geneva;
-    src: url(/src/assets/fonts/Geneva.ttf);
+    src: url(../assets/fonts/Geneva.ttf);
 }

@@ -38,8 +38,9 @@ footer {
   }
 }
 .text{
-  padding: 20px 0px;
+  padding: 10px 0px;
   margin: 0;
+  font-family: $third-font;
   @include mobile{
     font-size: 20px;
     padding-top: 20px;
@@ -51,6 +52,7 @@ footer {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: $third-font;
 }
 .footer-list a:hover{
   color: $text-color;
