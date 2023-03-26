@@ -2,10 +2,9 @@
   "name": "ngan-nguyen-kim",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel ./src/pages/index.html",
-    "build": "parcel ./src/pages/index.html"
+    "build": "parcel build ./src/pages/index.html"
   },
   "repository": {
     "type": "git",
