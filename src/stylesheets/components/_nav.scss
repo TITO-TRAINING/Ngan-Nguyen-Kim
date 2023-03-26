@@ -1,19 +1,24 @@
 @use "../abstracts/" as *;
 nav{
-    padding: 20px 50px 0px 50px;
+    padding: 20px 70px 0px 70px;
     z-index: 5;
+    @include tablet{
+        padding: 20px 20px 0px 20px;
+    }
 }
 .container-nav{
     display: flex;
     justify-content: space-between;
     background-color: $background-nav;
     padding: 10px;
+    backdrop-filter: blur(22px);
 }
 .navbar-logo img{
-    padding-top: 10px;
-    padding-right: 65px;
+    padding-top: 5px;
+    padding-right: 170px;
     @include tablet{
-        width: 80%;
+        width: 75%;
+        padding-top: 2%;
     }
     @include mobile{
         width: 90%;
@@ -54,6 +59,8 @@ nav li a {
     padding: 0.5em 1em;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.1em;
 }
 nav li a:hover{
     color: $text-card-footer;

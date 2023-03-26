@@ -11,7 +11,7 @@
 .section2-title{
     padding: 300px 0px 0px 200px;
     @include tablet{
-        padding: 300px 0px 0px 30px;
+        padding: 270px 0px 0px 30px;
     }
 }
 .section2-title h1{
@@ -21,15 +21,21 @@
     letter-spacing: 0.1em;
     color: $text-color;
     text-transform: uppercase;
+    @include mobile{
+        font-size: 44px;
+    }
 }
 .section2-title h2{
-    padding-top: 30px;
+    padding-top: 1%;
     font-family: $second-font;
     font-weight: 400;
     font-size: 92px;
     letter-spacing: -0.01em;
     color: $text-color;
     text-transform: uppercase;
+    @include mobile{
+        font-size: 62px;
+    }
 }
 .section2-title h5{
     padding-top: 10px;
@@ -40,4 +46,7 @@
     text-decoration-line: underline;
     color: $text-color;
     text-transform: uppercase;
+    @include mobile{
+        font-size: 14px;
+    }
 }

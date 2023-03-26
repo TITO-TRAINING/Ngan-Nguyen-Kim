@@ -3,14 +3,18 @@
     background-image: url(../assets/images/section1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 1096px;
     width: 100%;
+    @include tablet{
+        background-position: left;
+        height: 1096px;
+    }
 }
 .header-title{
-    padding: 300px 0px 0px 100px;
+    padding: 13% 0% 0% 7%;
     @include tablet{
-        padding: 300px 0px 0px 30px;
+        padding: 5% 0% 0% 3%;
     }
 }
 .header-title h1{
@@ -20,18 +24,30 @@
     letter-spacing: 0.1em;
     color: $text-color;
     text-transform: uppercase;
+    @include tablet{
+        font-size: 60px;
+    }
+    @include mobile{
+        font-size: 44px;
+    }
 }
 .header-title h2{
-    padding-top: 30px;
+    padding-top: 0%;
     font-family: $second-font;
     font-weight: 400;
     font-size: 92px;
     letter-spacing: -0.01em;
     color: $text-color;
     text-transform: uppercase;
+    @include tablet{
+        font-size: 90px;
+    }
+    @include mobile{
+        font-size: 62px;
+    }
 }
 .header-title h5{
-    padding-top: 10px;
+    padding-top: 3%;
     font-family: $primary-font;
     font-weight: 700;
     font-size: 18px;
@@ -39,9 +55,12 @@
     text-decoration-line: underline;
     color: $text-color;
     text-transform: uppercase;
+    @include mobile{
+        font-size: 14px;
+    }
 }
 .header-button button{
-    margin: 30px 0px 0px 100px;
+    margin: 3% 0% 0% 7%;
     width: 300px;
     border: $border;
     font-family: $primary-font;
@@ -53,6 +72,11 @@
     text-transform: uppercase;
     padding: 30px;
     @include tablet{
-        margin: 30px 0px 0px 30px;
+        margin: 7% 0% 0% 3%;
+    }
+    @include mobile{
+        font-size: 14px;
+        padding: 20px;
+        width: 215px;
     }
 }
