@@ -4,12 +4,16 @@
     background-color: $background-color;
     position: relative;
     width: 100%;
+    @include mobile{
+        margin-bottom: 80%;
+    }
 }
 .section3_img img{
     width: 80%;
     height: auto;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     padding: 10%;
     @include tablet{
         width: 100%;
@@ -29,8 +33,11 @@
     mix-blend-mode: soft-light;
     text-transform: uppercase;
     @include tablet{
-        font-size: 225px;
+        font-size: 276px;
         padding: 0;
+        top: -21%;
+        left: 0;
+        margin: -10px;
     }
     @include mobile{
         display: none;
@@ -40,8 +47,8 @@
     position: absolute;
     left: 44.5%;
     top: 20%;
-    width: 480px;
-    height: 638px;
+    right: 18%;
+    height: 562px;
     background-color: $background-text;
     padding: 3%;
     backdrop-filter: blur(22px);
@@ -49,9 +56,12 @@
         right: 0;
         bottom: 10%;
         top: 10%;
+        height: 350px;
     }
     @include mobile{
-        position: static;
+        top: 77%;
+        left: 0;
+        height: 380px;
     }
 }
 .title{
@@ -62,8 +72,8 @@
     letter-spacing: -0.01em;
     color: $text-color;
     text-transform: uppercase;
-    @include tablet{
-        font-size: 40px;
+    @include mobile{
+        font-size: 62px;
     }
 }
 .paragraph{
@@ -73,9 +83,17 @@
     letter-spacing: 0.1em;
     color: $text-color;
     line-height: 1.7;
-    margin: 3% 0% 5% 0%;
+    padding: 5% 0% 10% 0%;
     @include tablet{
         font-size: 10px;
+        padding-bottom: 5%;
+    }
+
+        p{
+            padding-bottom: 5%;
+        }
+    @include mobile{
+        padding-bottom: 3%;
     }
 }
 .btn-sec3{
