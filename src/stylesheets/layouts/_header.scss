@@ -2,14 +2,8 @@
 .container{
     background-image: url(../assets/images/section1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    height: 1096px;
-    width: 100%;
-    @include tablet{
-        background-position: left;
-        height: 1096px;
-    }
+    background-position: center;
+    background-size: 100% 100%;
 }
 .header-title{
     padding: 13% 0% 0% 7%;
